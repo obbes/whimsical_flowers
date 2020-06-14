@@ -5,8 +5,10 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-.Becky{
-    font-family:  Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+.becky{
+    font-family:  Calibri;
+    font-size: larger;
+    font-weight: bolder;
 }
 body{
     text-align: center;
