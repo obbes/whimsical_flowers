@@ -3,6 +3,10 @@
     font-family: myFirstFont;
     src: url('../fonts/AlexBrush-Regular.ttf');
 }
+@font-face{
+    font-family: mySecondFont;
+    src: url('../fonts/reckfield-texture-demo.ttf');
+}
 .title_banner {
     background-image: url("../images/Whimsical_Flowers_Title.png");
     background-size: contain;
@@ -42,4 +46,16 @@ h3{
 }
 li{
     text-align: left;
+}
+.row_low{
+    content: "";
+    display: inline;
+    clear: both;
+}
+.col_low{
+    display: inline-block;
+    width: fit-content;
+    padding:0 30px 0 30px; /* Only right padding*/
+    font-size: 18pt;
+    font-family: mySecondFont;
 }
