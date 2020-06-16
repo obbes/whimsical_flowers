@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .gallery {
     line-height: 0;
    
